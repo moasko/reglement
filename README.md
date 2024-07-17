@@ -48,10 +48,10 @@ Le tableau ci-dessous décrit les outils utilisés par Start.dev.
 
 | Outils      | Objectifs                         | Qui peut accorder l'accès aux nouveaux ? |
 |-------------|-----------------------------------|-----------------------------------------|
-| Trello      | Outil de gestion agile            | Glaine & Phidias                        |
-| Google Drive| Stockage de documents             | Glaine & Phidias                        |
+| Trello      | Outil de gestion agile            | Moasko dev                        |
+| Google Drive| Stockage de documents             | moasko dev                       |
 | Slack       | Canaux de communication           | Tout le monde                           |
-| Github      | Gestion du code / Pipeline CI-CD  | Phidias                                 |
+| Github      | Gestion du code / Pipeline CI-CD  | Moasko dev                                 |
 
 ### Workflow
 
@@ -106,15 +106,19 @@ La gouvernance du développement fait un usage extensif des étiquettes. En plus
 
 Le tableau ci-dessous décrit le code couleur de l'étiquette de carte. Considérant que la coloration des cartes n'est pas une science exacte, tout partenaire est autorisé à ajuster la liste des valeurs de toute couleur pour faciliter son travail. Cependant, il doit informer tous les membres de l'équipe du changement et de ses motivations.
 
-| Couleur     | Objectif                                         | Valeur                           |
+### Étiquettes de cartes Trello
+
+| Couleur | Objectif | Valeur |
 |-------------|--------------------------------------------------|----------------------------------|
-| Vert        | Type de carte                                    | Document, Epic, Initiative, Story, Sub-Task, Task |
-| Orange      | Temps alloué pour réaliser une tâche             | 2 Heures, 4 Heures               |
-| Rouge       | Importance et urgence de la tâche pour le Sprint | IMPORTANT, URGENT                |
-| Violet      | Détails des tâches                                | Analysis, Code Review, Deployment, Design UX/UI, Development, Document, Product Management, Release, Testing |
-| Bleu Foncé  | Spécifications du travail de développement       | Bug, Improvement, New Feature, Refactoring |
-| Bleu Clair  | Partie technique des applications                | Frontend, Backend, CI/CD Platform, Data Platform |
-| Rose        | Numéro de la première semaine du Sprint          | Sprint 40, Sprint 42, Sprint 44  |
+| ![#00ff00](https://placehold.co/10x25/00ff00/00ff00.png) Vert | Type de carte | Document, Epic, Initiative, Story, Sub-Task, Task |
+| ![#ffa500](https://placehold.co/10x25/ffa500/ffa500.png) Orange | Temps alloué pour réaliser une tâche | 2 Heures, 4 Heures |
+| ![#ff0000](https://placehold.co/10x25/ff0000/ff0000.png) Rouge | Importance et urgence de la tâche pour le Sprint | IMPORTANT, URGENT |
+| ![#800080](https://placehold.co/10x25/800080/800080.png) Violet | Détails des tâches | Analysis, Code Review, Deployment, Design UX/UI, Development, Document, Product Management, Release, Testing |
+| ![#00008b](https://placehold.co/10x25/00008b/00008b.png) Bleu Foncé | Spécifications du travail de développement | Bug, Improvement, New Feature, Refactoring |
+| ![#add8e6](https://placehold.co/10x25/add8e6/add8e6.png) Bleu Clair | Partie technique des applications | Frontend, Backend, CI/CD Platform, Data Platform |
+| ![#ff69b4](https://placehold.co/10x25/ff69b4/ff69b4.png) Rose | Numéro de la première semaine du Sprint | Sprint 40, Sprint 42, Sprint 44 |
+
+
 
 #### Hiérarchie
 
@@ -195,7 +199,7 @@ Le partenaire peut facturer Start.dev en fonction du tarif décrit ci-dessous :
   - 1 jour-homme = 8 heures passées sur des tâches assignées par Start.dev
   - Min 2 tâches/jour
   - Max : 4 tâches/jour
-  - Tarif : 20000 FCFA/jour-homme
+  - Tarif : 20000 FCFA/jour
 
 Start.dev paiera les factures pour le travail considéré comme "TERMINÉ". Un travail est "TERMINÉ", c'est-à-dire facturable et payable, lorsqu'il répond aux critères ci-dessous :
 
